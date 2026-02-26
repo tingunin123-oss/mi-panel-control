@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request
 import os
 
 app = Flask(__name__)
-
 # Datos que el bot leerá (esto es lo que cambiarás cuando quieras buscar otra cosa)
 ORDEN_MAESTRA = {
     "buscar": "Honda Civic rojo",
