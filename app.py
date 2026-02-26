@@ -4,10 +4,16 @@ import os
 app = Flask(__name__)
 
 # Datos que el bot leerá (esto es lo que cambiarás cuando quieras buscar otra cosa)
-ORDEN_MAESTRA = {
-    "buscar": "Honda Civic rojo",
+# ORDEN_MAESTRA = {
+#     "buscar": "Honda Civic rojo",
+#     "token": "7IrKGL6WJqVEiNa8Q0fos", 
+#     "status": "activo"
+# }
+
+ORDEN_ACTUAL = {
+    "canal_url": "https://www.youtube.com/@gabrielgomez-f8e",
     "token": "7IrKGL6WJqVEiNa8Q0fos", 
-    "status": "activo"
+    "mensaje": "BOT YOUTUBE: INICIANDO REPRODUCCION"
 }
 
 @app.route('/api', methods=['GET'])
